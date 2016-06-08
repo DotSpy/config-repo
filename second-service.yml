@@ -10,8 +10,8 @@ server:
   port: 5555   # HTTP (Tomcat) port
 
 # Discovery Server Dashboard uses FreeMarker.  Don't want Thymeleaf templates
-spring:
-  profiles:
-    active: native
-  application:
-     name: dummy-service-number-2  # Service registers under this name
+# spring:
+#   profiles:
+#     active: native
+#   application:
+#     name: dummy-service-number-2  # Service registers under this name
