@@ -1,2 +1,10 @@
-server:
-  port: 5555   # HTTP (Tomcat) port
+# server:
+#   port: 5555   # HTTP (Tomcat) port
+
+# Configure this Discovery Server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 30
