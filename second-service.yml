@@ -6,9 +6,6 @@ eureka:
   instance:
     leaseRenewalIntervalInSeconds: 30
 
-spring:
-  profiles:
-    active: port
 # server:
 #   port: 5555   # HTTP (Tomcat) port
 
